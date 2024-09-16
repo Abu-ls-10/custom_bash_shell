@@ -44,7 +44,7 @@ This custom “bash” shell is a Unix-like command-line interpreter developed i
 
 4. Run the shell:
    ```bash
-   ./tsh
+   ./tsh```
 
 
 ## Usage Examples
@@ -67,7 +67,7 @@ This custom “bash” shell is a Unix-like command-line interpreter developed i
 
 - **Run a command in the background**:
    ```bash
-   /bin/sleep 10 &
+   /bin/sleep 10 &```
 
 
 ## Acknowledgements
