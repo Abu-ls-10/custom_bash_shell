@@ -35,8 +35,8 @@ This custom “bash” shell is a Unix-like command-line interpreter developed i
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/custom-bash-shell.git
-   cd custom-bash-shell
+   git clone https://github.com/yourusername/custom_bash_shell.git
+   cd custom_bash_shell
 
 2. Compile the project:
    ```bash
@@ -44,7 +44,7 @@ This custom “bash” shell is a Unix-like command-line interpreter developed i
 
 4. Run the shell:
    ```bash
-   ./custom_shell
+   ./tsh
 
 
 ## Usage Examples
