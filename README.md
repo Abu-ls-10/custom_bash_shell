@@ -4,7 +4,6 @@
 
 This custom “bash” shell is a Unix-like command-line interpreter developed in the C programming language. Inspired by the classic Bash shell, this project aims to provide users with a robust and efficient command-line interface for interacting with the operating system. The shell supports a wide range of built-in commands, piping, input/output redirection, and job control functionalities, offering users a powerful tool for managing their system tasks and workflows.
 
----
 
 ## Key Features
 
@@ -18,7 +17,6 @@ This custom “bash” shell is a Unix-like command-line interpreter developed i
   
 - **Scripting Support**: Provides users with the ability to write shell scripts to automate tasks and workflows, enhancing productivity and efficiency in system administration tasks.
 
----
 
 ## Technologies Used
 
@@ -32,7 +30,6 @@ This custom “bash” shell is a Unix-like command-line interpreter developed i
   
 - **File I/O Operations**: Implemented file input/output operations to support input redirection (`<`) and output redirection (`>`), enabling users to interact with files directly from the command line.
 
----
 
 ## How to Run
 
@@ -49,7 +46,6 @@ This custom “bash” shell is a Unix-like command-line interpreter developed i
    ```bash
    ./custom_shell
 
----
 
 ## Usage Examples
 
@@ -72,4 +68,9 @@ This custom “bash” shell is a Unix-like command-line interpreter developed i
 - **Run a command in the background**:
    ```bash
    /bin/sleep 10 &
+
+
+## Acknowledgements
+
+Much appreciation to Saad.H and Adam.E for contributing to this project.
 
