@@ -56,7 +56,6 @@ volatile sig_atomic_t ready; /* Is the newest child in its own process group? */
 
 /* Function prototypes */
 
-/* Here are the functions that you will implement */
 void eval(char *cmdline);
 
 int builtin_cmd(char **argv);
@@ -71,7 +70,7 @@ void sigint_handler(int sig);
 
 void sigtstp_handler(int sig);
 
-/* Here are helper routines that we've provided for you */
+/* Helper routines */
 int parseline(const char *cmdline, char **argv);
 
 void sigquit_handler(int sig);
@@ -144,7 +143,6 @@ int main(int argc, char **argv) {
 
     Signal(SIGUSR1, sigusr1_handler); /* Child is ready */
 
-    /* These are the ones you will need to implement */
     Signal(SIGINT, sigint_handler);   /* ctrl-c */
     Signal(SIGTSTP, sigtstp_handler);  /* ctrl-z */
     Signal(SIGCHLD, sigchld_handler);  /* Terminated or stopped child */
